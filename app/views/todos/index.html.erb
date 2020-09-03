@@ -1,0 +1,5 @@
+<h1>TODOs</h1>
+<% @todos.each.with_index do |todo, index| %>
+  <div><%= index + 1 %>: <%= todo.name %></div>
+  <br>
+<% end %>
